@@ -1,0 +1,16 @@
+{
+  "name": "ventilation-calc",
+  "version": "1.0.0",
+  "description": "Simple Ventilation-cal",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Musa24",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}

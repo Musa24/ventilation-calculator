@@ -1,0 +1,97 @@
+<form action="/" method="POST">
+{{control}}
+    <div class="main">
+    <div class="main-cotainer"> 
+        <h3>Заслонка</h3>
+        <div class="form-container">
+             <div class="label">управление</div>
+             <div>
+                <input type="radio" name="управление" value="Дискретное">Дискретное<br>
+                <input type="radio" name="управление" value="Аналоговое">Аналоговое<br>
+            </div>
+        </div>
+
+        <div class="form-container">
+             <div class="label">Контроль открытия</div>
+             <div>
+                <input type="radio" name="Контроль открытия" value="Нет">Нет<br>
+               <input type="radio" name="Контроль открытия" value="Есть">Есть<br>
+            </div>
+        </div>
+    </div>
+    <div class="main-cotainer"> 
+        <h3>фильтра</h3>
+        <div class="form-container">
+             <div class="label">Количество</div>
+             <div>
+                <input type="number" name="Количество" value="0" min="0">шт
+            </div>
+        </div>
+        <div class="form-container">
+             <div class="label">Сигналы</div>
+             <div>
+                <input type="radio" name="Сигналы" value="Разделены">Разделены<br>
+               <input type="radio" name="Сигналы" value="Объединены">Объединены<br>
+            </div>
+        </div>
+    </div>
+    <div class="main-cotainer"> 
+        <h3>Нагреватель</h3>
+        <div class="form-container">
+             <div class="label">Тип</div>
+             <div>
+                <input type="radio" name="Тип" value="Водяной">Водяной<br>
+                <input type="radio" name="Тип" value="Элекрический">Элекрический<br>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="main">
+         <div class="main-cotainer"> 
+        <h3>Охладитель</h3>
+        <div class="form-container">
+             <div class="label">Тип</div>
+             <div>
+                <input type="radio" name="Тип-1" value="Нет">Нет<br>
+                <input type="radio" name="Тип-1" value="Водяной">Водяной<br>
+                <input type="radio" name="Тип-1" value="Фреоновый">Фреоновый<br>
+            </div>
+        </div>
+    </div>
+     <div class="main-cotainer"> 
+        <h3>Вентилятор</h3>
+        <div class="form-container">
+             <div class="label">Мощность</div>
+             <div>
+                <input type="number" name="Мощность" value="0" min="0" >кВт
+            </div>
+        </div>
+        <div class="form-container">
+             <div class="label">управление</div>
+             <div>
+               <input type="radio" name="управление-1" value="Прямой пуск">Прямой пуск<br>
+               <input type="radio" name="управление-1" value="Преобразователь  Частоты"><span>Преобразователь  Частоты</span><br>
+            </div>
+        </div>
+    </div>
+    <div class="main-cotainer"> 
+        <h3>Общие</h3>
+        <div class="form-container">
+             <div class="label">Корпус</div>
+             <div>
+                <input type="radio" name="Корпус" value="Пластик">Пластик<br>
+                <input type="radio" name="Корпус" value="Металл">Металл<br>
+            </div>
+        </div>
+
+        <div class="form-container">
+             <div class="label">Доп. опции</div>
+             <div>
+               <input type="checkbox" name="Доп. опции" value="Сигнал Пожар">Сигнал Пожар<br>
+               <input type="checkbox" name="Доп. опции" value="LED - индикация">LED - индикация<br>
+               <input type="checkbox" name="Доп. опции" value="Диспетчеризация">Диспетчеризация<br>
+            </div>
+        </div>
+    </div>
+    </div>
+</form>
